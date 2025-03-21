@@ -1,0 +1,64 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Разделы */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+}
+
+/* Контакты */
+#contacts a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
